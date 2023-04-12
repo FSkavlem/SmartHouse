@@ -1,0 +1,407 @@
+{
+    "info": {
+        "name": "TestCollection",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "GET smarthouse",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse",
+                    "path": [
+                        "smarthouse"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "GET smarthouse/floor",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/floor",
+                    "path": [
+                        "smarthouse",
+                        "floor"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "GET smarthouse/floor/{fid}",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/floor/:fid",
+                    "query": [],
+                    "variable": [
+                        {
+                            "key": "fid",
+                            "value": "0"
+                        }
+                    ],
+                    "path": [
+                        "smarthouse",
+                        "floor",
+                        ":fid"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "GET smarthouse/floor/{fid}/room/",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/floor/:fid/room",
+                    "query": [],
+                    "variable": [
+                        {
+                            "key": "fid",
+                            "value": "0"
+                        }
+                    ],
+                    "path": [
+                        "smarthouse",
+                        "floor",
+                        ":fid",
+                        "room"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "GET smarthouse/floor/{fid}/room/{rid}",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/floor/:fid/room/:rid",
+                    "query": [],
+                    "variable": [
+                        {
+                            "key": "fid",
+                            "value": "0"
+                        },
+                        {
+                            "key": "rid",
+                            "value": "2"
+                        }
+                    ],
+                    "path": [
+                        "smarthouse",
+                        "floor",
+                        ":fid",
+                        "room",
+                        ":rid"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "GET smarthouse/device",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/device",
+                    "path": [
+                        "smarthouse",
+                        "device"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "GET smarthouse/device/{did}",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/device/:did",
+                    "query": [],
+                    "variable": [
+                        {
+                            "key": "did",
+                            "value": "1"
+                        }
+                    ],
+                    "path": [
+                        "smarthouse",
+                        "device",
+                        ":did"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "GET smarthouse/sensor/{did}/current",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/sensor/:did/current",
+                    "query": [],
+                    "variable": [
+                        {
+                            "key": "did",
+                            "value": "14"
+                        }
+                    ],
+                    "path": [
+                        "smarthouse",
+                        "sensor",
+                        ":did",
+                        "current"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "POST smarthouse/sensor/{did}/current",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/sensor/:did/current",
+                    "query": [],
+                    "variable": [
+                        {
+                            "key": "did",
+                            "value": "14"
+                        }
+                    ],
+                    "path": [
+                        "smarthouse",
+                        "sensor",
+                        ":did",
+                        "current"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"value\": 3.5\n}"
+                }
+            }
+        },
+        {
+            "name": "GET smarthouse/sensor/{did}/values",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/sensor/:did/values",
+                    "query": [],
+                    "variable": [
+                        {
+                            "key": "did",
+                            "value": "14"
+                        }
+                    ],
+                    "path": [
+                        "smarthouse",
+                        "sensor",
+                        ":did",
+                        "values"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "GET smarthouse/sensor/{did}/values Copy",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/sensor/:did/values",
+                    "query": [],
+                    "variable": [
+                        {
+                            "key": "did",
+                            "value": "14"
+                        }
+                    ],
+                    "path": [
+                        "smarthouse",
+                        "sensor",
+                        ":did",
+                        "values"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "DELETE smarthouse/sensor/{did}/oldest",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/sensor/:did/oldest",
+                    "query": [],
+                    "variable": [
+                        {
+                            "key": "did",
+                            "value": "14"
+                        }
+                    ],
+                    "path": [
+                        "smarthouse",
+                        "sensor",
+                        ":did",
+                        "oldest"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "GET smarthouse/actuator/{did}/current",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/actuator/:did/current",
+                    "query": [],
+                    "variable": [
+                        {
+                            "key": "did",
+                            "value": "16"
+                        }
+                    ],
+                    "path": [
+                        "smarthouse",
+                        "actuator",
+                        ":did",
+                        "current"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                }
+            }
+        },
+        {
+            "name": "PUT smarthouse/device/{id}",
+            "request": {
+                "method": "PUT",
+                "url": {
+                    "raw": "127.0.0.1:8000/smarthouse/device/:did",
+                    "query": [],
+                    "variable": [
+                        {
+                            "key": "did",
+                            "value": "1"
+                        }
+                    ],
+                    "path": [
+                        "smarthouse",
+                        "device",
+                        ":did"
+                    ],
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"state\": \"true\"\n}"
+                }
+            }
+        }
+    ]
+}
