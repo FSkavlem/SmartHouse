@@ -27,7 +27,6 @@ class Actuator:
 
         logging.info(f"Actuator Client {self.did} starting")
 
-        # TODO START
         # send request to cloud service with regular intervals and
         # set state of actuator according to the received response
         while True:
@@ -37,7 +36,6 @@ class Actuator:
                 self.state = ActuatorState(value)
             time.sleep(common.LIGHTBULB_CLIENT_SLEEP_TIME)
         logging.info(f"Client {self.did} finishing")
-        # TODO END
 
     def run(self):
         # start thread simulating physical light bulb
@@ -47,7 +45,5 @@ class Actuator:
         # start thread receiving state from the cloud
         t2 = Thread(target=self.client)
         t2.start()
-
-        # TODO END
 
 

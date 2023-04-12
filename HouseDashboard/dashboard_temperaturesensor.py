@@ -10,15 +10,10 @@ from messaging import SensorMeasurement
 def refresh_btn_cmd(temp_widget, did):
 
     logging.info("Temperature refresh")
-
-    # TODO START
-
     # send request to cloud service to obtain current temperature
     response = requests.request("GET", 'http://127.0.0.1:8000/smarthouse/sensor/8/current')
     # replace statement below with measurement from response
     sensor_measurement = SensorMeasurement.from_json(response.content)
-
-    # TODO END
 
     # update the text field in the user interface
     temp_widget['state'] = 'normal' # to allow text to be changed

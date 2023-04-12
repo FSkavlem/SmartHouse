@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b2e295db-c954-4c8f-85b7-ed8113ca35f8" name="Changes" comment="" />
+    <list default="true" id="b2e295db-c954-4c8f-85b7-ed8113ca35f8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HouseDashboard/dashboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/HouseDashboard/dashboard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HouseDashboard/dashboard_temperaturesensor.py" beforeDir="false" afterPath="$PROJECT_DIR$/HouseDashboard/dashboard_temperaturesensor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HouseSimulator/smarthouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/HouseSimulator/smarthouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HouseSimulator/smarthouse_lightbulb.py" beforeDir="false" afterPath="$PROJECT_DIR$/HouseSimulator/smarthouse_lightbulb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +23,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,6 +89,17 @@
       <updated>1681191180112</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

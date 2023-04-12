@@ -1,4 +1,4 @@
-import tkinter as tk # https://www.pythontutorial.net/tkinter/
+import tkinter as tk
 
 import logging
 from multiprocessing import current_process
